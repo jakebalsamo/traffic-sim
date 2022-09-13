@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Stage from "@inlet/react-pixi"
 
-function App() {
+/* function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Stage>
+      
+      </Stage>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,6 +24,14 @@ function App() {
       </header>
     </div>
   );
+} */
+
+function App () {
+  return (
+    <Stage>
+
+    </Stage>
+  )
 }
 
 export default App;
